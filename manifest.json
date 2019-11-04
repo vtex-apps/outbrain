@@ -1,9 +1,9 @@
 {
-  "name": "CHANGEME",
+  "name": "outbrain",
   "vendor": "vtex",
   "version": "0.0.1",
-  "title": "CHANGEME",
-  "description": "CHANGEME",
+  "title": "outbrain",
+  "description": "outbrain",
   "billingOptions": {
     "termsURL": "",
     "support": {
@@ -14,18 +14,19 @@
   "builders": {
     "react": "3.x",
     "store": "0.x",
-    "pixel": "0.x"
+    "pixel": "0.x",
+    "docs": "0.x"
   },
   "dependencies": {
     "vtex.pixel-interfaces": "1.x"
   },
   "settingsSchema": {
-    "title": "APP NAME",
+    "title": "Outbrain Options",
     "type": "object",
     "properties": {
-      "gtmId": {
-        "title": "SAMPLE FIELD",
-        "description": "Enter the ID (GTM-XXXX) from your Google Tag Manager",
+      "OB_ADV_ID": {
+        "title": "Outbrain Id",
+        "description": "Enter your Outbrain Id",
         "type": "string"
       }
     }
